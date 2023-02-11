@@ -3,7 +3,7 @@ package application
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/pretty"
+	"github.com/taubyte/go-project-schema/pretty"
 )
 
 // Prettify takes a Prettier and resources, returns map[string]interface{}

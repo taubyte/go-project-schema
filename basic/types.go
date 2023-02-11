@@ -1,8 +1,8 @@
 package basic
 
 import (
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
 	"github.com/taubyte/go-seer"
+	structureSpec "github.com/taubyte/go-specs/structure"
 )
 
 // Getter represents the methods which are common to all resources

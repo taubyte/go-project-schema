@@ -1,7 +1,7 @@
 package pretty
 
 import (
-	commonSpec "bitbucket.org/taubyte/go-specs/common"
+	commonSpec "github.com/taubyte/go-specs/common"
 )
 
 type Object interface {

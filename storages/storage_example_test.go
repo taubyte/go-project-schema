@@ -3,9 +3,9 @@ package storages_test
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/project"
-	"bitbucket.org/taubyte/go-project-schema/storages"
 	"github.com/spf13/afero"
+	"github.com/taubyte/go-project-schema/project"
+	"github.com/taubyte/go-project-schema/storages"
 )
 
 func ExampleStorage() {

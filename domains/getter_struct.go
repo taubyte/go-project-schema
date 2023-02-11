@@ -1,7 +1,7 @@
 package domains
 
 import (
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
+	structureSpec "github.com/taubyte/go-specs/structure"
 )
 
 func (g getter) Struct() (dom *structureSpec.Domain, err error) {

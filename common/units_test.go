@@ -5,8 +5,8 @@ import (
 	"log"
 	"testing"
 
-	"bitbucket.org/taubyte/go-project-schema/common"
 	"github.com/alecthomas/units"
+	"github.com/taubyte/go-project-schema/common"
 	"gotest.tools/v3/assert"
 )
 

@@ -1,6 +1,6 @@
 package smartops
 
-import "bitbucket.org/taubyte/go-project-schema/pretty"
+import "github.com/taubyte/go-project-schema/pretty"
 
 func (s *smartOps) Prettify(pretty.Prettier) map[string]interface{} {
 	getter := s.Get()

@@ -1,7 +1,7 @@
 package website
 
 import (
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
+	structureSpec "github.com/taubyte/go-specs/structure"
 )
 
 func (g getter) Struct() (web *structureSpec.Website, err error) {

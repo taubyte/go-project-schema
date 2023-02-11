@@ -3,9 +3,9 @@ package messaging
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/basic"
-	"bitbucket.org/taubyte/go-project-schema/common"
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
+	"github.com/taubyte/go-project-schema/basic"
+	"github.com/taubyte/go-project-schema/common"
+	structureSpec "github.com/taubyte/go-specs/structure"
 )
 
 func (m *messaging) SetWithStruct(sync bool, messaging *structureSpec.Messaging) error {

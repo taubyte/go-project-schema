@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"testing"
 
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
-	"bitbucket.org/taubyte/go-project-schema/smartops"
+	internal "github.com/taubyte/go-project-schema/internal/test"
+	"github.com/taubyte/go-project-schema/smartops"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/assert/cmp"
 )

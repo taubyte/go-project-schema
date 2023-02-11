@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"bitbucket.org/taubyte/go-project-schema/basic"
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
+	"github.com/taubyte/go-project-schema/basic"
+	internal "github.com/taubyte/go-project-schema/internal/test"
 	"github.com/taubyte/go-seer"
 	"gotest.tools/v3/assert"
 )

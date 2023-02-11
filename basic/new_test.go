@@ -3,8 +3,8 @@ package basic_test
 import (
 	"testing"
 
-	"bitbucket.org/taubyte/go-project-schema/basic"
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
+	"github.com/taubyte/go-project-schema/basic"
+	internal "github.com/taubyte/go-project-schema/internal/test"
 	"gotest.tools/v3/assert"
 )
 

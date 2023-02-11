@@ -1,6 +1,6 @@
 package functions
 
-import "bitbucket.org/taubyte/go-project-schema/basic"
+import "github.com/taubyte/go-project-schema/basic"
 
 type getter struct {
 	*function

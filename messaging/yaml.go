@@ -1,6 +1,6 @@
 package messaging
 
-import "bitbucket.org/taubyte/go-project-schema/basic"
+import "github.com/taubyte/go-project-schema/basic"
 
 func Yaml(name, application string, yamlData []byte) (Getter, error) {
 	resource, err := basic.Yaml(yamlData)

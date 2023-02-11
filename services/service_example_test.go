@@ -3,9 +3,9 @@ package services_test
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/project"
-	"bitbucket.org/taubyte/go-project-schema/services"
 	"github.com/spf13/afero"
+	"github.com/taubyte/go-project-schema/project"
+	"github.com/taubyte/go-project-schema/services"
 )
 
 func ExampleService() {

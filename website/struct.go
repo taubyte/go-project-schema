@@ -3,9 +3,9 @@ package website
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/basic"
-	"bitbucket.org/taubyte/go-project-schema/common"
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
+	"github.com/taubyte/go-project-schema/basic"
+	"github.com/taubyte/go-project-schema/common"
+	structureSpec "github.com/taubyte/go-specs/structure"
 )
 
 func (w *website) SetWithStruct(sync bool, website *structureSpec.Website) error {

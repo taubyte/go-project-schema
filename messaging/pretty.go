@@ -1,6 +1,6 @@
 package messaging
 
-import "bitbucket.org/taubyte/go-project-schema/pretty"
+import "github.com/taubyte/go-project-schema/pretty"
 
 func (m *messaging) Prettify(pretty.Prettier) map[string]interface{} {
 	getter := m.Get()

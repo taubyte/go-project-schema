@@ -1,9 +1,9 @@
 package common
 
 import (
-	"bitbucket.org/taubyte/go-project-schema/basic"
-	"bitbucket.org/taubyte/go-project-schema/pretty"
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
+	"github.com/taubyte/go-project-schema/basic"
+	"github.com/taubyte/go-project-schema/pretty"
+	structureSpec "github.com/taubyte/go-specs/structure"
 )
 
 type Mapper []struct {

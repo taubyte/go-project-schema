@@ -1,7 +1,7 @@
 package messaging
 
 import (
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
+	structureSpec "github.com/taubyte/go-specs/structure"
 )
 
 func (g getter) Struct() (msg *structureSpec.Messaging, err error) {

@@ -3,9 +3,9 @@ package functions_test
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/functions"
-	"bitbucket.org/taubyte/go-project-schema/project"
 	"github.com/spf13/afero"
+	"github.com/taubyte/go-project-schema/functions"
+	"github.com/taubyte/go-project-schema/project"
 )
 
 func ExampleFunction() {

@@ -3,8 +3,8 @@ package storages_test
 import (
 	"testing"
 
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
-	"bitbucket.org/taubyte/go-project-schema/storages"
+	internal "github.com/taubyte/go-project-schema/internal/test"
+	"github.com/taubyte/go-project-schema/storages"
 	"gotest.tools/v3/assert"
 )
 

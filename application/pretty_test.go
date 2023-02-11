@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
-	"bitbucket.org/taubyte/go-project-schema/application"
-	"bitbucket.org/taubyte/go-project-schema/domains"
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
-	"bitbucket.org/taubyte/go-project-schema/pretty"
-	"bitbucket.org/taubyte/go-project-schema/services"
+	"github.com/taubyte/go-project-schema/application"
+	"github.com/taubyte/go-project-schema/domains"
+	internal "github.com/taubyte/go-project-schema/internal/test"
+	"github.com/taubyte/go-project-schema/pretty"
+	"github.com/taubyte/go-project-schema/services"
 	"gotest.tools/v3/assert"
 )
 

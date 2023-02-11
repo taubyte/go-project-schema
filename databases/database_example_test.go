@@ -3,9 +3,9 @@ package databases_test
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/databases"
-	"bitbucket.org/taubyte/go-project-schema/project"
 	"github.com/spf13/afero"
+	"github.com/taubyte/go-project-schema/databases"
+	"github.com/taubyte/go-project-schema/project"
 )
 
 func ExampleDatabase() {

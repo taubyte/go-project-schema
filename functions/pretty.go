@@ -1,8 +1,8 @@
 package functions
 
 import (
-	"bitbucket.org/taubyte/go-project-schema/pretty"
-	"bitbucket.org/taubyte/go-specs/methods"
+	"github.com/taubyte/go-project-schema/pretty"
+	"github.com/taubyte/go-specs/methods"
 )
 
 func (f *function) Prettify(p pretty.Prettier) map[string]interface{} {

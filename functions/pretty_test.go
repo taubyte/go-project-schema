@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
-	"bitbucket.org/taubyte/go-project-schema/pretty"
-	commonSpec "bitbucket.org/taubyte/go-specs/common"
+	internal "github.com/taubyte/go-project-schema/internal/test"
+	"github.com/taubyte/go-project-schema/pretty"
+	commonSpec "github.com/taubyte/go-specs/common"
 	"gotest.tools/v3/assert"
 )
 

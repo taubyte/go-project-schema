@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"bitbucket.org/taubyte/go-project-schema/pretty"
-	commonSpec "bitbucket.org/taubyte/go-specs/common"
+	"github.com/taubyte/go-project-schema/pretty"
+	commonSpec "github.com/taubyte/go-specs/common"
 )
 
 type PrettierFetchMethod func(path *commonSpec.TnsPath) (pretty.Object, error)

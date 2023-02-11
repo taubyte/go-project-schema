@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
 	"github.com/alecthomas/units"
+	internal "github.com/taubyte/go-project-schema/internal/test"
+	structureSpec "github.com/taubyte/go-specs/structure"
 	"gotest.tools/v3/assert"
 )
 

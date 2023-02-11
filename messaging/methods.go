@@ -3,7 +3,7 @@ package messaging
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/common"
+	"github.com/taubyte/go-project-schema/common"
 	"github.com/taubyte/go-seer"
 )
 

@@ -3,9 +3,9 @@ package application_test
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/application"
-	"bitbucket.org/taubyte/go-project-schema/project"
 	"github.com/spf13/afero"
+	"github.com/taubyte/go-project-schema/application"
+	"github.com/taubyte/go-project-schema/project"
 )
 
 func ExampleApplication() {

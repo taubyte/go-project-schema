@@ -3,9 +3,9 @@ package messaging_test
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/messaging"
-	"bitbucket.org/taubyte/go-project-schema/project"
 	"github.com/spf13/afero"
+	"github.com/taubyte/go-project-schema/messaging"
+	"github.com/taubyte/go-project-schema/project"
 )
 
 func ExampleMessaging() {

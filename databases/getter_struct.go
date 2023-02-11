@@ -1,8 +1,8 @@
 package databases
 
 import (
-	"bitbucket.org/taubyte/go-project-schema/common"
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
+	"github.com/taubyte/go-project-schema/common"
+	structureSpec "github.com/taubyte/go-specs/structure"
 )
 
 func (g getter) Struct() (db *structureSpec.Database, err error) {

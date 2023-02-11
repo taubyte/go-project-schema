@@ -4,8 +4,8 @@ import (
 	_ "embed"
 	"testing"
 
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
-	"bitbucket.org/taubyte/go-project-schema/smartops"
+	internal "github.com/taubyte/go-project-schema/internal/test"
+	"github.com/taubyte/go-project-schema/smartops"
 	"gotest.tools/v3/assert"
 )
 

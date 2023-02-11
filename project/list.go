@@ -1,6 +1,6 @@
 package project
 
-import "bitbucket.org/taubyte/go-project-schema/common"
+import "github.com/taubyte/go-project-schema/common"
 
 func (g getter) list(application, resourceFolder string) (local []string, global []string) {
 	if application != "" {

@@ -1,11 +1,11 @@
-module bitbucket.org/taubyte/go-project-schema
+module github.com/taubyte/go-project-schema
 
 go 1.18
 
 // Direct Taubyte imports
 require (
-	bitbucket.org/taubyte/go-specs v0.1.3
 	github.com/taubyte/go-seer v1.0.6
+	github.com/taubyte/go-specs v0.9.0
 )
 
 // Direct imports

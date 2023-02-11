@@ -1,6 +1,6 @@
 package smartops
 
-import "bitbucket.org/taubyte/go-project-schema/basic"
+import "github.com/taubyte/go-project-schema/basic"
 
 func Id(value string) basic.Op {
 	return basic.Set("id", value)

@@ -1,7 +1,7 @@
 package domains
 
 import (
-	"bitbucket.org/taubyte/go-project-schema/basic"
+	"github.com/taubyte/go-project-schema/basic"
 	"github.com/taubyte/go-seer"
 )
 

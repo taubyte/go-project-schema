@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"bitbucket.org/taubyte/go-project-schema/common"
+	"github.com/taubyte/go-project-schema/common"
 	"gotest.tools/v3/assert"
 )
 

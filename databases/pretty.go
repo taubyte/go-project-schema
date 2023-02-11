@@ -1,6 +1,6 @@
 package databases
 
-import "bitbucket.org/taubyte/go-project-schema/pretty"
+import "github.com/taubyte/go-project-schema/pretty"
 
 func (d *database) Prettify(p pretty.Prettier) map[string]interface{} {
 	getter := d.Get()

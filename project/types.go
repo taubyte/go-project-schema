@@ -1,18 +1,18 @@
 package project
 
 import (
-	"bitbucket.org/taubyte/go-project-schema/application"
-	"bitbucket.org/taubyte/go-project-schema/basic"
-	"bitbucket.org/taubyte/go-project-schema/databases"
-	"bitbucket.org/taubyte/go-project-schema/domains"
-	"bitbucket.org/taubyte/go-project-schema/functions"
-	"bitbucket.org/taubyte/go-project-schema/libraries"
-	"bitbucket.org/taubyte/go-project-schema/messaging"
-	"bitbucket.org/taubyte/go-project-schema/pretty"
-	"bitbucket.org/taubyte/go-project-schema/services"
-	"bitbucket.org/taubyte/go-project-schema/smartops"
-	"bitbucket.org/taubyte/go-project-schema/storages"
-	"bitbucket.org/taubyte/go-project-schema/website"
+	"github.com/taubyte/go-project-schema/application"
+	"github.com/taubyte/go-project-schema/basic"
+	"github.com/taubyte/go-project-schema/databases"
+	"github.com/taubyte/go-project-schema/domains"
+	"github.com/taubyte/go-project-schema/functions"
+	"github.com/taubyte/go-project-schema/libraries"
+	"github.com/taubyte/go-project-schema/messaging"
+	"github.com/taubyte/go-project-schema/pretty"
+	"github.com/taubyte/go-project-schema/services"
+	"github.com/taubyte/go-project-schema/smartops"
+	"github.com/taubyte/go-project-schema/storages"
+	"github.com/taubyte/go-project-schema/website"
 	"github.com/taubyte/go-seer"
 )
 

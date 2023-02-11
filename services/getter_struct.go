@@ -1,7 +1,7 @@
 package services
 
 import (
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
+	structureSpec "github.com/taubyte/go-specs/structure"
 )
 
 func (g getter) Struct() (srv *structureSpec.Service, err error) {

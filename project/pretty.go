@@ -3,7 +3,7 @@ package project
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/pretty"
+	"github.com/taubyte/go-project-schema/pretty"
 )
 
 func (p *project) ResourceMethods() []pretty.PrettyResourceIface {

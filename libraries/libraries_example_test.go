@@ -3,9 +3,9 @@ package libraries_test
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/libraries"
-	"bitbucket.org/taubyte/go-project-schema/project"
 	"github.com/spf13/afero"
+	"github.com/taubyte/go-project-schema/libraries"
+	"github.com/taubyte/go-project-schema/project"
 )
 
 func ExampleLibrary() {

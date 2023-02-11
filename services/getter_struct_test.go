@@ -3,7 +3,7 @@ package services_test
 import (
 	"testing"
 
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
+	internal "github.com/taubyte/go-project-schema/internal/test"
 	"gotest.tools/v3/assert"
 )
 

@@ -1,8 +1,8 @@
 package application
 
 import (
-	"bitbucket.org/taubyte/go-project-schema/basic"
-	"bitbucket.org/taubyte/go-project-schema/pretty"
+	"github.com/taubyte/go-project-schema/basic"
+	"github.com/taubyte/go-project-schema/pretty"
 	"github.com/taubyte/go-seer"
 )
 

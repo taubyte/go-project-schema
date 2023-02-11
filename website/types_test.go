@@ -3,7 +3,7 @@ package website
 import (
 	"testing"
 
-	"bitbucket.org/taubyte/go-project-schema/basic"
+	"github.com/taubyte/go-project-schema/basic"
 	"github.com/taubyte/go-seer"
 	"gotest.tools/v3/assert"
 )

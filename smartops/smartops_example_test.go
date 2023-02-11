@@ -3,9 +3,9 @@ package smartops_test
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-project-schema/project"
-	"bitbucket.org/taubyte/go-project-schema/smartops"
 	"github.com/spf13/afero"
+	"github.com/taubyte/go-project-schema/project"
+	"github.com/taubyte/go-project-schema/smartops"
 )
 
 func ExampleSmartOps() {

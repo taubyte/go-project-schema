@@ -3,8 +3,8 @@ package website_test
 import (
 	"testing"
 
-	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
-	structureSpec "bitbucket.org/taubyte/go-specs/structure"
+	internal "github.com/taubyte/go-project-schema/internal/test"
+	structureSpec "github.com/taubyte/go-specs/structure"
 	"gotest.tools/v3/assert"
 )
 
