@@ -1,0 +1,26 @@
+package project_test
+
+import (
+	"testing"
+
+	internal "bitbucket.org/taubyte/go-project-schema/internal/test"
+	"bitbucket.org/taubyte/go-project-schema/project"
+	"gotest.tools/v3/assert"
+)
+
+func TestSetBasic(t *testing.T) {
+	p, err := internal.NewProjectEmpty()
+	assert.NilError(t, err)
+
+	p.Set(true,
+		project.Id("testID"),
+		project.Description("a different project"),
+		project.Email("test@taubyte.com"),
+	)
+
+	eql(t, [][]any{
+		{p.Get().Id(), "testID"},
+		{p.Get().Description(), "a different project"},
+		{p.Get().Email(), "test@taubyte.com"},
+	})
+}
