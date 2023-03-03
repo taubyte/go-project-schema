@@ -19,7 +19,6 @@ func (g getter) Struct() (db *structureSpec.Database, err error) {
 		Tags:        g.Tags(),
 		Match:       g.Match(),
 		Regex:       g.Regex(),
-		Path:        g.Path(),
 		Local:       g.Local(),
 		Key:         key,
 		Min:         g.Min(),

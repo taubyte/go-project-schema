@@ -5,7 +5,6 @@ tags:
     - database_tag_2
 match: /users
 useRegex: true
-path: /
 access:
     network: all
 replicas:

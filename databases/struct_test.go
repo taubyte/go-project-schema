@@ -21,7 +21,6 @@ func TestStructBasic(t *testing.T) {
 		Tags:        []string{"database_tag_1", "database_tag_2"},
 		Match:       "/users",
 		Regex:       true,
-		Path:        "/",
 		Local:       false,
 		Key:         "123456",
 		Min:         15,

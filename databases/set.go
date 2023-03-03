@@ -82,10 +82,6 @@ func Storage(size string) basic.Op {
 	}
 }
 
-func Path(value string) basic.Op {
-	return basic.Set("path", value)
-}
-
 func SmartOps(value []string) basic.Op {
 	return basic.Set("smartops", value)
 }
