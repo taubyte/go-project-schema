@@ -59,7 +59,6 @@ func ExampleDatabase() {
 	//     - tag2
 	// match: /users
 	// useRegex: true
-	// path: /
 	// access:
 	//     network: all
 	// replicas:
