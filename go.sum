@@ -169,8 +169,8 @@ github.com/stretchr/testify v1.7.0/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/stretchr/testify v1.7.4 h1:wZRexSlwd7ZXfKINDLsO4r7WBt3gTKONc6K/VesHvHM=
 github.com/taubyte/go-seer v1.0.6 h1:7T6rUTlnQDsON/eUQBTgsmAzpP7gE2SFcBsgsQr9bZc=
 github.com/taubyte/go-seer v1.0.6/go.mod h1:eei5Dvqusx9VPQXPMBBmxhjxODL9FNPOpe6U89GUtQ4=
-github.com/taubyte/go-specs v0.9.0 h1:m7wm27kyjm5PgJ2RRa/ByNWYL5mFx3/dgWtVL7CkBJk=
-github.com/taubyte/go-specs v0.9.0/go.mod h1:HWOl1h5r3+i3nyOj/Vqrz0Ra2PXVYMhHwG+7pNW/ICQ=
+github.com/taubyte/go-specs v0.9.6 h1:f8C8svF3QmGkpWQKw8YABdL2TngXN1wRdxoRP81wJZU=
+github.com/taubyte/go-specs v0.9.6/go.mod h1:OLj64wgg6hEf/xa5v/yWFPNoNQSK2Pf99e6KnEMW2ZI=
 github.com/taubyte/utils v0.1.1 h1:Ynfj6fRexSvyMdO5C0qwdSlR1gzl5AqWwp1XV3i2HZ0=
 github.com/taubyte/utils v0.1.1/go.mod h1:1pM0lhVAYAysBQ3Zg0EYjeETBEMQn0DquwfiBbV+mHo=
 github.com/yuin/goldmark v1.1.25/go.mod h1:3hX8gzYuyVAZsxl0MRgGTJEmQBFcNTphYh9decYSb74=

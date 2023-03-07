@@ -5,7 +5,7 @@ go 1.18
 // Direct Taubyte imports
 require (
 	github.com/taubyte/go-seer v1.0.6
-	github.com/taubyte/go-specs v0.9.0
+	github.com/taubyte/go-specs v0.9.6
 )
 
 // Direct imports
