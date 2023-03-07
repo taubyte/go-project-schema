@@ -27,7 +27,6 @@ type Getter interface {
 	Secret() bool
 	Min() int
 	Max() int
-	Path() string
 	Size() string
 	Encryption() (key string, keyType string)
 }

@@ -31,7 +31,6 @@ func ExampleDatabase() {
 		databases.Tags([]string{"tag1", "tag2"}),
 		databases.Match("/users"),
 		databases.Regex(true),
-		databases.Path("/"),
 		databases.Local(false),
 		databases.Replicas(2, 6),
 		databases.Storage("50Kb"),
@@ -60,7 +59,6 @@ func ExampleDatabase() {
 	//     - tag2
 	// match: /users
 	// useRegex: true
-	// path: /
 	// access:
 	//     network: all
 	// replicas:

@@ -5,7 +5,6 @@ tags:
     - database_tag_4
 match: profiles
 useRegex: false
-path: /profiles
 access:
     network: host
 replicas:

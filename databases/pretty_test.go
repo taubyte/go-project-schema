@@ -23,7 +23,6 @@ func TestPretty(t *testing.T) {
 		"Max":             30,
 		"Min":             15,
 		"Name":            "test_database1",
-		"Path":            "/",
 		"Regex":           true,
 		"Secret":          false,
 		"Size":            "5GB",

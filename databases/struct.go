@@ -31,10 +31,6 @@ func (d *database) SetWithStruct(sync bool, db *structureSpec.Database) error {
 			ops = append(ops, Regex(db.Regex))
 			return nil
 		}},
-		{"Path", true, func() error {
-			ops = append(ops, Path(db.Path))
-			return nil
-		}},
 		{"Local", false, func() error {
 			ops = append(ops, Local(db.Local))
 			return nil

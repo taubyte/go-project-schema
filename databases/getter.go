@@ -68,10 +68,6 @@ func (g getter) Max() int {
 	return basic.Get[int](g, "replicas", "max")
 }
 
-func (g getter) Path() string {
-	return basic.Get[string](g, "path")
-}
-
 func (g getter) Size() string {
 	return basic.Get[string](g, "storage", "size")
 }

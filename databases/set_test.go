@@ -25,7 +25,6 @@ func TestSetBasic(t *testing.T) {
 		tags        = []string{"db_tag_5", "db_tag_6"}
 		match       = "/test/v1"
 		regex       = false
-		path        = "/test"
 		local       = true
 	)
 
@@ -35,7 +34,6 @@ func TestSetBasic(t *testing.T) {
 		databases.Tags(tags),
 		databases.Match(match),
 		databases.Regex(regex),
-		databases.Path(path),
 		databases.Local(local),
 		databases.Replicas(0, 10),
 	)
@@ -49,7 +47,6 @@ func TestSetBasic(t *testing.T) {
 			{_db.Get().Tags(), tags},
 			{_db.Get().Match(), match},
 			{_db.Get().Regex(), regex},
-			{_db.Get().Path(), path},
 			{_db.Get().Local(), local},
 			{_db.Get().Min(), 0},
 			{_db.Get().Max(), 10},
@@ -80,7 +77,6 @@ func TestSetInApp(t *testing.T) {
 		tags        = []string{"db_tag_5", "db_tag_6"}
 		match       = "/test/v1"
 		regex       = true
-		path        = "/test"
 		local       = false
 	)
 
@@ -90,7 +86,6 @@ func TestSetInApp(t *testing.T) {
 		databases.Tags(tags),
 		databases.Match(match),
 		databases.Regex(regex),
-		databases.Path(path),
 		databases.Local(local),
 		databases.Replicas(0, 10),
 	)
@@ -104,7 +99,6 @@ func TestSetInApp(t *testing.T) {
 			{_db.Get().Tags(), tags},
 			{_db.Get().Match(), match},
 			{_db.Get().Regex(), regex},
-			{_db.Get().Path(), path},
 			{_db.Get().Local(), local},
 			{_db.Get().Min(), 0},
 			{_db.Get().Max(), 10},

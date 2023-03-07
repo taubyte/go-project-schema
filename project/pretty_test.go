@@ -19,7 +19,6 @@ func TestPrettyBasic(t *testing.T) {
 		"Email":       "cto@taubyte.com",
 		"Databases": map[string]any{
 			"test_database1": map[string]any{
-				"Path":            "/",
 				"Encryption-Type": "",
 				"Id":              "database1ID",
 				"Description":     "a database for users",
@@ -183,7 +182,6 @@ func TestPrettyBasic(t *testing.T) {
 						"Max":             601,
 						"Id":              "database2ID",
 						"Size":            "45GB",
-						"Path":            "/profiles",
 					},
 				},
 				"Functions": map[string]any{
