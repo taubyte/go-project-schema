@@ -4,6 +4,7 @@
 [![License](https://img.shields.io/github/license/taubyte/go-project-schema)](LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/taubyte/go-project-schema)](https://goreportcard.com/report/taubyte/go-project-schema)
 [![GoDoc](https://godoc.org/github.com/taubyte/go-project-schema?status.svg)](https://pkg.go.dev/github.com/taubyte/go-project-schema)
+[![codecov](https://codecov.io/gh/taubyte/go-project-schema/branch/main/graph/badge.svg?token=2A8RBJZSOY)](https://codecov.io/gh/taubyte/go-project-schema)
 [![Discord](https://img.shields.io/discord/973677117722202152?color=%235865f2&label=discord)](https://tau.link/discord)
 
 This is a golang interface to the Taubyte project using [go-seer](https://github.com/taubyte/go-seer). 
