@@ -25,7 +25,7 @@ func (l *library) Prettify(p pretty.Prettier) map[string]interface{} {
 		return obj
 	}
 
-	tnsPath, err := methods.GetTNSAssetPath(p.Project(), id, p.Branch())
+	tnsPath, err := methods.GetTNSAssetPath(p.Project(), getter.Id(), p.Branch())
 	if err != nil {
 		obj["Error"] = err
 		return obj
