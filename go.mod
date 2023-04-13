@@ -5,7 +5,7 @@ go 1.18
 // Direct Taubyte imports
 require (
 	github.com/taubyte/go-seer v1.0.6
-	github.com/taubyte/go-specs v0.9.6
+	github.com/taubyte/go-specs v0.10.0
 )
 
 // Direct imports
@@ -36,4 +36,16 @@ require (
 	golang.org/x/text v0.6.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+)
+
+require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
+	github.com/ipfs/go-cid v0.0.7 // indirect
+	github.com/multiformats/go-base32 v0.0.3 // indirect
+	github.com/multiformats/go-base36 v0.1.0 // indirect
+	github.com/multiformats/go-multibase v0.0.3 // indirect
+	github.com/multiformats/go-multihash v0.2.1 // indirect
+	github.com/multiformats/go-varint v0.0.6 // indirect
+	github.com/taubyte/domain-validation v1.0.0 // indirect
+	lukechampine.com/blake3 v1.1.6 // indirect
 )
